@@ -17,7 +17,6 @@ public class TestWithTestFrameworkJunit {
     @Before
     public void setup() {
         // Arrange: Set up WebDriver and navigate to the login page
-        System.setProperty("webdriver.chrome.driver", "path/to/chromedriver");
         driver = new ChromeDriver();
         driver.get("https://practicetestautomation.com/practice-test-login/");
     }
